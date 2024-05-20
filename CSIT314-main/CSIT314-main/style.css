@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: blue;
+}
+
+.body {
+    padding: 20px;
+}
+
+.welcome-message {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: blue;
+}
+
+.body {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px; /* Adjust the width as needed */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 1px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: pink;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6b6b;
+}
+
+
+/* Style for the header */
+.header {
+    background-color: #ffcccc; /* Light pink background color for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive; /* Use the Pacifico font for the logo */
+    font-size: 32px;
+    color: #333; /* Dark gray color for the logo */
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav li a {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font for the navigation links */
+    text-decoration: none;
+    color: #666; /* Dark gray color for the navigation links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav li a:hover {
+    color: #ff6666; /* Change color on hover to a light red */
+}
+
+/* Style for the body content */
+.body {
+    padding: 40px;
+}
+
+.overall-rating {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.overall-rating h2 {
+    font-family: 'Montserrat', sans-serif; /* Use the Montserrat font for the overall rating */
+    font-size: 24px;
+    color: #bb0e0e; /* Dark gray color for the overall rating */
+}
+
+.top-agents {
+    border-top: 2px solid #333; /* Dark gray border on top of top agents section */
+    padding-top: 40px;
+}
+
+.agent {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #a7a4a4; /* Light gray border between agents */
+    padding-bottom: 20px;
+}
+
+.agent h3 {
+    font-family: 'Playfair Display', serif; /* Use the Playfair Display font for agent names */
+    font-size: 20px;
+    color: #1d1919; /* Dark gray color for agent names */
+    margin-bottom: 10px;
+}
+
+.agent p {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font for agent details */
+    font-size: 16px;
+    color: #333131; /* Dark gray color for agent details */
+    margin-bottom: 5px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.property-listings, .shortlist-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.property {
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.property-details {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-details h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.property-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: pink;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #ff6b6b;
+}
+
+.hidden {
+    display: none;
+}
